@@ -8,10 +8,15 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; style-src 'self';"
+    />
     <!-- <title>New Age - Start Bootstrap Theme</title> -->
     <title>Aliro - AutoML</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-
+    <!-- Bootstrap icons-->
+    <link src="../public/css/bootstrap-icons.css" rel="stylesheet" />
     <!-- Google fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -33,11 +38,6 @@
     />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-    <!-- Bootstrap icons-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
   </head>
   <body id="page-top">
     <!-- Navigation-->
@@ -338,7 +338,7 @@
                 <!-- <circle cx="50" cy="50" r="50"></circle> -->
                 <img
                   alt="Aliro Architecture Diagram"
-                  src="./assets/img/pennai_architecture.png"
+                  src="../public/assets/img/pennai_architecture.png"
                   width="550"
                   height="400"
                 />
@@ -787,7 +787,7 @@
             <div class="px-5 px-sm-0">
               <img
                 class="img-fluid rounded-circle"
-                src="assets/img/aurora.jpg"
+                src="https://source.unsplash.com/u8Jn2rzYIps/900x900"
                 alt="..."
               />
             </div>
@@ -974,8 +974,7 @@
       </div>
     </div>
     <!-- Bootstrap core JS-->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
@@ -985,6 +984,6 @@
         * * -->
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
         * *-->
-    <!-- <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script> -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
   </body>
 </html>
